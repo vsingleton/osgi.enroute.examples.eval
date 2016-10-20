@@ -6,3 +6,5 @@ jdk:
 before_install:
   - rm ~/.m2/settings.xml
 
+script: mvn verify
+
